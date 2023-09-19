@@ -9,7 +9,7 @@ def mult(n, mat1, mat2):
     trace = sum(result[i][i] for i in range(n))
     return trace
 
-n = int(input("Enter dimensions of the square matrices: "))
+n = int(input())
 mat1 = []
 mat2 = []
 
