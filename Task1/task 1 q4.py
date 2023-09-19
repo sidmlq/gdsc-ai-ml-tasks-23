@@ -4,7 +4,7 @@ def shortintl(givenstr):
         current = current[1:len(current) - 1]
     return len(current)
 
-T = int(input("Enter the number of test cases:"))
+T = int(input())
 for _ in range(T):
     input_str = input()
     result = shortintl(input_str)
