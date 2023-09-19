@@ -5,6 +5,6 @@ def pattern(n):
             print(c, end=" ")
             c=(c%n)+1
         print("\n")
-n=int(input("Enter the number of rows:"))
+n=int(input())
 pattern(n)
     
